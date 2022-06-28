@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Roboto Regular", sans-serif;
+    font-family: "Roboto", "Regular", sans-serif;
     background-color: var(--bg-color);
     font-style: normal;
     color: var(--title-text-color)
@@ -116,6 +116,7 @@ img {
     display: inline-block;
     padding: 6px 22px;
     border-radius: 4px;
+    line-height: 26px;
 
     font-family: inherit;
     color: var(--bg-color);
@@ -135,6 +136,7 @@ img {
     padding: 6px 22px;
     border-radius: 4px;
     margin-left: 8px;
+    line-height: 26px;
 
     font-family: inherit;
     color: var(--title-text-color);
@@ -536,7 +538,8 @@ a {
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    border: var(--bg-color);
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .description {
